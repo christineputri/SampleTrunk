@@ -11,6 +11,7 @@
 		F2CA444C2C40D2030043FA45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA444B2C40D2030043FA45 /* ContentView.swift */; };
 		F2CA444E2C40D2040043FA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CA444D2C40D2040043FA45 /* Assets.xcassets */; };
 		F2CA44512C40D2040043FA45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CA44502C40D2040043FA45 /* Preview Assets.xcassets */; };
+		F2CA445A2C40D4250043FA45 /* SampleLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA44592C40D4250043FA45 /* SampleLearnerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F2CA444B2C40D2030043FA45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2CA444D2C40D2040043FA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2CA44502C40D2040043FA45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2CA44592C40D4250043FA45 /* SampleLearnerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLearnerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				F2CA44492C40D2030043FA45 /* SampleTrunkApp.swift */,
 				F2CA444B2C40D2030043FA45 /* ContentView.swift */,
+				F2CA44592C40D4250043FA45 /* SampleLearnerViewModel.swift */,
 				F2CA444D2C40D2040043FA45 /* Assets.xcassets */,
 				F2CA444F2C40D2040043FA45 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CA445A2C40D4250043FA45 /* SampleLearnerViewModel.swift in Sources */,
 				F2CA444C2C40D2030043FA45 /* ContentView.swift in Sources */,
 				F2CA444A2C40D2030043FA45 /* SampleTrunkApp.swift in Sources */,
 			);
