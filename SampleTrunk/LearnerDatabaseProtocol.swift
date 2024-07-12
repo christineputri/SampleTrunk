@@ -6,3 +6,7 @@
 //
 
 import Foundation
+protocol LearnerDatabaseProtocol{
+    func getLearnerBy(id: Int) -> Bool
+    func editLearnerBy(id:Int) -> Bool
+}
