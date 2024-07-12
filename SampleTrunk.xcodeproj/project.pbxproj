@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8078D702C40D822005402C5 /* LearnerDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8078D6F2C40D822005402C5 /* LearnerDatabaseProtocol.swift */; };
+		A8078D722C40D831005402C5 /* WorkingLearnerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8078D712C40D831005402C5 /* WorkingLearnerViewModel.swift */; };
 		F2CA444A2C40D2030043FA45 /* SampleTrunkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA44492C40D2030043FA45 /* SampleTrunkApp.swift */; };
 		F2CA444C2C40D2030043FA45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA444B2C40D2030043FA45 /* ContentView.swift */; };
 		F2CA444E2C40D2040043FA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CA444D2C40D2040043FA45 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8078D6F2C40D822005402C5 /* LearnerDatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnerDatabaseProtocol.swift; sourceTree = "<group>"; };
+		A8078D712C40D831005402C5 /* WorkingLearnerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkingLearnerViewModel.swift; sourceTree = "<group>"; };
 		F2CA44462C40D2030043FA45 /* SampleTrunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTrunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CA44492C40D2030043FA45 /* SampleTrunkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTrunkApp.swift; sourceTree = "<group>"; };
 		F2CA444B2C40D2030043FA45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			children = (
 				F2CA44492C40D2030043FA45 /* SampleTrunkApp.swift */,
 				F2CA444B2C40D2030043FA45 /* ContentView.swift */,
+				A8078D6F2C40D822005402C5 /* LearnerDatabaseProtocol.swift */,
 				F2CA44592C40D4250043FA45 /* SampleLearnerViewModel.swift */,
+				A8078D712C40D831005402C5 /* WorkingLearnerViewModel.swift */,
 				F2CA444D2C40D2040043FA45 /* Assets.xcassets */,
 				F2CA444F2C40D2040043FA45 /* Preview Content */,
 			);
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8078D702C40D822005402C5 /* LearnerDatabaseProtocol.swift in Sources */,
 				F2CA445A2C40D4250043FA45 /* SampleLearnerViewModel.swift in Sources */,
 				F2CA444C2C40D2030043FA45 /* ContentView.swift in Sources */,
 				F2CA444A2C40D2030043FA45 /* SampleTrunkApp.swift in Sources */,
+				A8078D722C40D831005402C5 /* WorkingLearnerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
